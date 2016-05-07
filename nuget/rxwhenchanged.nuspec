@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>rxwhenchanged</id>
+        <version>0.0.1</version>
+        <authors>Olexandr Leuschenko</authors>
+        <projectUrl>https://github.com/OlexaLe/RxWhenChanged</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>WhenChanged extension for INotifyPropertyChanged and ICommand implementation</description>
+        <tags>Rx Reactive</tags>
+        <dependencies>
+            <dependency id="Rx-Interfaces" version="2.2.5" />
+            <dependency id="Rx-Core" version="2.2.5" />
+            <dependency id="Rx-Linq" version="2.2.5" />
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="..\RxWhenChanged\bin\Release\RxWhenChanged.dll" target="lib\RxWhenChanged.dll" />
+    </files>
+</package>
