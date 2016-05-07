@@ -31,6 +31,7 @@ cmd.Results.Subscribe(...);
 cmd.ThrownExceptions.Subscribe(...);
 cmd.IsExecuting.Subscribe(...);
 ```
+Do not forget to call Dispose() in real projects!
 
 Please refer to unit tests for documentation and inspiration. Feel free to create Issues with bugs or propositions.
 Thanks!
