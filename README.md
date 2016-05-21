@@ -3,6 +3,7 @@ Helpers for ViewModels
 
 ## WhenChanged
 Extension for `INotifyPropertyChanged` interface. Use it to observe property changes in ViewModels.
+
 Signature:
 ```c#
 IObservable<TResult> WhenChanged<TResult>(this INotifyPropertyChanged self, string property)
